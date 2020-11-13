@@ -1,7 +1,8 @@
-var button = document.querySelector("#submit_button");
+var submit_button = document.querySelector("#submit_button");
+var reset_button = document.querySelector("#reset_button");
 var numbers = document.querySelector("#numbers");
 
-button.addEventListener("click", (e) => {
+submit_button.addEventListener("click", (e) => {
     console.log(numbers.value)
     arrayNum = numbers.value.split(' ');
     console.log(arrayNum)
@@ -24,4 +25,13 @@ button.addEventListener("click", (e) => {
         });
             document.querySelector("#result").value = result
         })
+})
+reset_button.addEventListener("click", (e) => {
+
+    arrayNum = numbers.value.split(' ');
+
+    e.preventDefault();
+
+    document.querySelector("#numbers").value = null  
+    document.querySelector("#result").value = null
 })

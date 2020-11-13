@@ -22,18 +22,6 @@ html, body {
     margin-bottom: 1rem;
   }
   
-  .img-clickable:hover {
-    cursor: pointer;
-  }
-
-  .img {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-  
-  
   hr.light {
     border-top: 1px solid #d5d5d5;
     width: 100%;
