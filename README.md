@@ -25,7 +25,7 @@ Considere uma sequência de inteiros _𝑎𝑡={𝑎1,𝑎2,…,𝑎𝑁}_, onde
 Abaixo segue as etapas do _Ímpar/Par Sorting_ para _𝑁=8_:
 
 <p align="center">
-<img src="./media/exemplo.png">
+<img src="./Media/exemplo.png">
 </p>
 
 Dados os valores de _𝑁_ e dos elementos da sequência, ordene-a utilizando o _Ímpar/Par Sorting_.
