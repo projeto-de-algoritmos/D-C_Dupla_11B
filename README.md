@@ -32,6 +32,13 @@ Dados os valores de _𝑁_ e dos elementos da sequência, ordene-a utilizando o 
 
 ## Screenshots
 
+<p align="center">
+<img src="./Media/screenshot_0.png">
+</p>
+
+- Demais screenshots estão na sessão de Uso
+- O Video de apresentação está na pasta "Media" desse repositório
+
 ## Instalação 
 
 **Linguagem**: Javascript
@@ -74,6 +81,30 @@ Em abas separadas do terminal você deverá rodar:
 O servidor poderá ser acessado em http://localhost:3000 enquanto o frontend será acessado em http://localhost:8080
 
 ## Uso 
+
+Ao acessar a página inicial, informe a sequência de números que deseja ordenar.
+
+<p align="center">
+<img src="./Media/screenshot_1.png">
+</p>
+
+Para ter o resultado dos números ordenados de acordo com o enunciado, clique no botão "Ordenar".
+
+<p align="center">
+<img src="./Media/screenshot_2.png">
+</p>
+
+Resultado aparecerá no campo abaixo.
+
+<p align="center">
+<img src="./Media/screenshot_3.png">
+</p>
+
+Para ordenar outra sequência de números clique no botão "Limpar" e siga os passos de uso novamente.
+
+<p align="center">
+<img src="./Media/screenshot_4.png">
+</p>
 
 
 ## Contribuintes 

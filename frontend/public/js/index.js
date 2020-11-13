@@ -3,9 +3,7 @@ var reset_button = document.querySelector("#reset_button");
 var numbers = document.querySelector("#numbers");
 
 submit_button.addEventListener("click", (e) => {
-    console.log(numbers.value)
-    arrayNum = numbers.value.split(' ');
-    console.log(arrayNum)
+    arrayNum = numbers.value.split(' ').split(',');
 
     e.preventDefault();
     fetch('http://localhost:3000/imparpar', {
